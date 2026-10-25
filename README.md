@@ -43,6 +43,10 @@ git commit -m "Update the fish website heading"
 git push -u origin your-name/task-1
 ```
 
-For task 3, stage `styles.css` instead. Use a commit message that describes your change. Open a pull request on GitHub and ask a teammate to review it before merging.
+For task 3, stage `styles.css` instead. Use a commit message that describes your change.
+
+After pushing, open a pull request on GitHub from your branch into `main`. Give it a short title and describe what you changed. You can ask a teammate to review it.
+
+**Do not merge your pull request. Leave it open for the officers to review during the meeting.** Your task is complete when the pull request is open.
 
 If you do not have permission to push to this repository, ask an officer for collaborator access or fork the repository and clone your fork instead.
