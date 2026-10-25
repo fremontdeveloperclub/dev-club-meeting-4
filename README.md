@@ -1,6 +1,6 @@
 # Meeting 4: make it your own
 
-A small HTML and CSS website for practicing Git and GitHub together. No accounts, packages, or build tools are needed to run the page.
+A small website about fish for practicing HTML, CSS, Git, and GitHub together. It uses one font, a simple layout, and no navigation or external links. No accounts, packages, or build tools are needed to run the page.
 
 ## Open the website
 
@@ -8,7 +8,7 @@ A small HTML and CSS website for practicing Git and GitHub together. No accounts
 2. Open `index.html` in a browser. You can double-click the file.
 3. After an edit, save the file and refresh the browser to see the change.
 
-`index.html` contains the words and links. `styles.css` controls the appearance.
+`index.html` contains the words. `styles.css` controls the appearance.
 
 ## Five small changes
 
@@ -16,11 +16,11 @@ Search the files for `TODO` to find the five numbered comments. Pick a task with
 
 | Task | File | Change |
 | --- | --- | --- |
-| 1 | `index.html` | Write a new club slogan in the main heading. Keep `id="intro-title"` on the heading. |
-| 2 | `index.html` | Rewrite the introduction to describe something you want to build or learn. |
-| 3 | `styles.css` | Change `--accent` to another dark color. It changes the links, wordmark, and borders. |
-| 4 | `index.html` | Replace the third project idea with your own. |
-| 5 | `index.html` | Point the footer link to your GitHub profile and use your name as the link text. |
+| 1 | `index.html` | Write a new heading for the fish website. Keep `id="intro-title"` on the heading. |
+| 2 | `index.html` | Rewrite the introduction to explain why you find fish interesting. |
+| 3 | `styles.css` | Change `--accent` to another dark color. It changes the site name and borders. |
+| 4 | `index.html` | Replace the third fish with your favorite fish and a short description. |
+| 5 | `index.html` | Replace the gill fact with another fish fact and update its heading. |
 
 The TODO comments are hints in the source code, so they do not appear on the website. Remove the comment for a task when you finish it. Keep your change focused on your assigned task so everyone's work is easier to combine.
 
@@ -39,7 +39,7 @@ Edit your file, save it, and check the page in your browser. Then review and com
 ```bash
 git diff
 git add index.html
-git commit -m "Update the club slogan"
+git commit -m "Update the fish website heading"
 git push -u origin your-name/task-1
 ```
 
