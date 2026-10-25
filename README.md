@@ -17,12 +17,14 @@ git clone https://github.com/fremontdeveloperclub/dev-club-meeting-4.git
 cd dev-club-meeting-4
 ```
 
+Cloning gives you a local copy of the repository. You will create your branch inside that copy in the next step; you do not need to create a branch on GitHub first.
+
 ### 2. Create your own branch
 
-Before editing any files, create and switch to a new branch. Replace `your-name/task-1` with your own name and task, such as `maya/fish-heading`. Each student should choose a different branch name.
+Before editing any files, create and switch to a new branch. Replace `your-name/fish-page` with your own branch name, such as `maya/fish-page`. Each student should choose a different branch name.
 
 ```bash
-git switch -c your-name/task-1
+git switch -c your-name/fish-page
 ```
 
 Check which branch you are working on:
@@ -33,41 +35,41 @@ git branch --show-current
 
 It should print your branch name, not `main`. Ask an officer if you are still on `main` before making changes.
 
-### 3. Make a small change
+### 3. Complete the three tasks
 
-Open the folder in your editor. `index.html` contains the words; `styles.css` controls the appearance. Search for `TODO` to find the five numbered comments. Choose one task and complete it on your own branch.
+Open the folder in your editor. `index.html` contains the words; `styles.css` controls the appearance. Search for `TODO` to find the three numbered comments. Complete these three tasks on your own branch.
 
 | Task | File | Change |
 | --- | --- | --- |
 | 1 | `index.html` | Write a new heading for the fish website. Keep `id="intro-title"` on the heading. |
 | 2 | `index.html` | Rewrite the introduction to explain why you find fish interesting. |
 | 3 | `styles.css` | Change `--accent` to another dark color. It changes the site name and borders. |
-| 4 | `index.html` | Replace the third fish with your favorite fish and a short description. |
-| 5 | `index.html` | Replace the gill fact with another fish fact and update its heading. |
 
-The TODO comments are hints in the source code, so they do not appear on the website. Remove the comment for your task when you finish it. Keep your change focused on that task.
+The TODO comments are hints in the source code, so they do not appear on the website. Remove each comment as you finish its task. Keep your changes focused on these three tasks.
 
 Save your file, then double-click `index.html` to open it in a browser. Refresh the browser after each edit to see your changes.
 
 ### 4. Stage and commit
 
-Saving a file does not create a Git commit. Review your changes, stage the file you edited, and save a checkpoint:
+Saving a file does not create a Git commit. Review your changes, stage the two files you edited, and save a checkpoint:
 
 ```bash
 git diff
-git add index.html
-git commit -m "Update the fish website heading"
+git add index.html styles.css
+git commit -m "Customize the fish website"
 ```
 
-For task 3, stage `styles.css` instead. Use a commit message that describes your change.
+Use a commit message that describes your changes.
 
 ### 5. Push your branch
 
 Upload your branch to the shared GitHub repository. Use the exact branch name you created in step 2:
 
 ```bash
-git push -u origin your-name/task-1
+git push -u origin your-name/fish-page
 ```
+
+This publishes your local branch as a branch on GitHub, which you can then use to open a pull request into `main`.
 
 Push your own branch, not `main`. If GitHub says you do not have permission, ask an officer for collaborator access.
 
