@@ -1,6 +1,6 @@
 :root {
   /* TODO 3: Change the accent color. Choose a dark color so the site name stays easy to read. */
-  --accent: #315b43;
+  --accent: rgb(27, 2, 10);
 }
 
 * {
